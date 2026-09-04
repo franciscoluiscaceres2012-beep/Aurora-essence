@@ -68,7 +68,7 @@ def supabase_request(path, method="GET", body=None, prefer=None):
 
     headers = {
         "apikey": SUPABASE_KEY,
-        "Authorization": f"Bearer {SUPABASE_KEY}",
+    
         "Content-Type": "application/json"
     }
 
